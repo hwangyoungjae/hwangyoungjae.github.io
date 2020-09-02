@@ -1,6 +1,5 @@
 title: hwangyoungjae.github.io
 lang: ko
-description: Write an awesome description for your new site here
 
 remote_theme: rundocs/jekyll-rtd-theme
 
@@ -14,7 +13,8 @@ addons:
   - analytics
 
 copyright:
-  revision: true
+  since: false
+  revision: false
 
 readme_index:
   with_frontmatter: true
