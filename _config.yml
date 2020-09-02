@@ -23,3 +23,15 @@ plugins:
   - jemoji
   - jekyll-avatar
   - jekyll-mentions
+
+exclude:
+  - Makefile
+  - CNAME
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - requirements.txt
+  - node_modules
+  - package.json
+  - package-lock.json
+  - jekyll-rtd-theme.gemspec
