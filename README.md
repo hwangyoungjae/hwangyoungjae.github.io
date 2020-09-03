@@ -41,3 +41,6 @@ The theme is available as open source under the terms of the MIT License
 [cdn]: https://cdn.jsdelivr.net/gh/rundocs/jekyll-rtd-theme/
 [codefactor]: https://www.codefactor.io/repository/github/rundocs/jekyll-rtd-theme
 [gitter]: https://gitter.im/rundocs/jekyll-rtd-theme?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge
+
+
+{% include list.liquid all=true %}
