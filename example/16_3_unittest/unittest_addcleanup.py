@@ -1,0 +1,24 @@
+# unittest_addcleanup.py
+import random
+import shutil
+import tempfile
+import unittest
+
+
+def remove_tmpdir(dirname):
+    print("In remove_tempdir()")
+    shutil.rmtree(dirname)
+
+
+class FixturesTest(unittest.TestCase):
+
+    def setUp(self) -> None:
+        super().setUp()
+        self.tmpdir = tempfile.mkdtemp()
+        self.addCleanup(remove_tmpdir, self.tmpdir)
+
+    def test1(self):
+        print("\nIn test1()")
+
+    def test2(self):
+        print("\nIn test2()")
